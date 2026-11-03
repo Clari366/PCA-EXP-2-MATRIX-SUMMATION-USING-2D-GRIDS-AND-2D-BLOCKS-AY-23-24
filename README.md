@@ -288,12 +288,14 @@ int main(int argc, char **argv)
 
 ## OUTPUT:
  FLOAT
- <img width="795" height="183" alt="Screenshot 2026-11-02 143622" src="https://github.com/user-attachments/assets/d46cd01a-b5de-4157-b119-8f9a4fbe0498" />
+ 
+<img width="785" height="197" alt="630345931-f0c9a062-4011-483e-b411-13fcab6d585b" src="https://github.com/user-attachments/assets/6f989164-7616-4690-b1c3-ab890c8a9277" />
+
 
 INT 
 
-<img width="842" height="191" alt="Screenshot 2026-11-02 143543" src="https://github.com/user-attachments/assets/3d9f9010-091c-4e4a-8ea9-e92358137b44" />
+<img width="802" height="206" alt="630349905-83871c9e-f1e4-4ac0-b909-24ecc2d5d78c" src="https://github.com/user-attachments/assets/dfe67944-7f14-400b-ba22-4c3a811dbd35" />
 
 
 ## RESULT:
-The host took _________ seconds to complete it’s computation, while the GPU outperforms the host and completes the computation in ________ seconds. Therefore, float variables in the GPU will result in the best possible result. Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
+The host took 0.854127 seconds (float) and 0.974183 seconds (integer) to complete its computation, while the GPU completed the same task in 0.107594 seconds (float) and 0.031807 seconds (integer). The float implementation achieved the lowest execution time on the host (0.854127 sec), while the integer implementation achieved the lowest execution time on the GPU (0.031807 sec). Both implementations produced correct results. Thus, matrix summation using 2D grids and 2D blocks has been performed successfully for both float and integer data types.
